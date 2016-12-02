@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Grub Crawl</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__row row">
+
+                <!-- NAVIGATION -->
+                <nav class="header__navigation text-right col-xs-12">
+
+                    <!-- MOBILE MENU -->
+                    <a href="#" class="header__mobile-navigation burger" id="burger"></a>
+                    <a href="#" class="header__mobile-navigation cart"></a>
+                    <!-- MOBILE MENU END -->
+
+                    <!-- GENERAL MENU -->
+                    <ul class="header__desktop-navigation list-inline list-unstyled" id="menu">
+                        <li><a href="#">All events</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Membership</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#" class="cart"><span>$1200</span></a></li>
+                    </ul>
+                    <!-- GENERAL MENU END -->
+
+                </nav>
+                <!-- NAVIGATION END -->
+
+            </div>
+            <div class="header__row row text-center">
+                <div class="header__form col-md-12">
+                    <div class="row">
+                        <div class="header__logo col-md-12">
+                            <a href="index.html">
+                                <img src="./img/header/header__logo.png" alt="Grub Crawl logo">
+                            </a>
+                        </div>
+                        <form action="#" class="col-md-12">
+                            <fieldset>
+                                <input type="text" name="what" placeholder="Enter Text">
+                                <input type="text" name="from" placeholder="From Date">
+                                <input type="text" name="to" placeholder="To Date">
+                                <input type="text" name="location" placeholder="Location">
+                                <input type="text" name="category" placeholder="Category">
+                                <button type="submit" class="btn">Search</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- EVENTS -->
+        <section class="events text-center">
+            <div class="events__container container">
+                <div class="events__heading events__row row">
+                    <div class="col-md-12">
+                        <h1>EVENTS</h1>
+                    </div>
+                    <div class="tabs-navigation col-md-12">
+                        <a href="#" class="tabs-navigation__item tabs-navigation__item--active">FOR TODAY</a> / <a href="#" class="tabs-navigation__item">FOR TOMORROW</a>
+                    </div>
+                </div>
+                <div class="events__catalog events__row row">
+
+                    <!-- EVENT ITEM -->
+                    <div class="col-md-4">
+                        <article class="events__item">
+                            <header class="events__header">
+                                <img src="./img/events/events-item__1.png" alt="events-item">
+                            </header>
+                            <div class="events__content">
+                                <h1>Fear Of Diving And Automatic Negative Thoughts</h1>
+                                <ul class="events__information list-unstyled row">
+                                    <li class="events__date col-xs-12">19 Mar 2016 04 Nov 2016</li>
+                                    <li class="events__place col-xs-12">68 Gleichner Viaduct</li>
+                                    <li class="events__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="events__footer">
+                                <ul class="events__buy">
+                                    <li><strong>$200</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Book now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
+                    <div class="col-md-4">
+                        <article class="events__item">
+                            <header class="events__header">
+                                <img src="./img/events/events-item__2.png" alt="events-item">
+                            </header>
+                            <div class="events__content">
+                                <h1>Fear Of Diving And Automatic Negative Thoughts</h1>
+
+                                <ul class="events__information list-unstyled row">
+                                    <li class="events__date col-xs-12">04 Feb 2016 06 Feb 2016</li>
+                                    <li class="events__place col-xs-12">0298 Kulas Street</li>
+                                    <li class="events__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="events__footer">
+                                <ul class="events__buy">
+                                    <li><strong>$200</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Book now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
+                    <div class="col-md-4">
+                        <article class="events__item">
+                            <header class="events__header">
+                                <img src="./img/events/events-item__3.png" alt="events-item">
+                            </header>
+                            <div class="events__content">
+                                <h1>Fear Of Diving And Automatic Negative Thoughts</h1>
+                                <ul class="events__information list-unstyled row">
+                                    <li class="events__date col-xs-12">01 Jan 2016 19 Sep 2016</li>
+                                    <li class="events__place col-xs-12">7462 Adell Shoal</li>
+                                    <li class="events__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="events__footer">
+                                <ul class="events__buy">
+                                    <li><strong>$200</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Book now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- EVENT ITEM END -->
+
+                </div>
+                <div class="events__catalog events__row row">
+
+                    <!-- EVENT ITEM -->
+                    <div class="col-md-4">
+                        <article class="events__item">
+                            <header class="events__header">
+                                <img src="./img/events/events-item__1.png" alt="events-item">
+                            </header>
+                            <div class="events__content">
+                                <h1>Fear Of Diving And Automatic Negative Thoughts</h1>
+                                <ul class="events__information list-unstyled row">
+                                    <li class="events__date col-xs-12">19 Mar 2016 04 Nov 2016</li>
+                                    <li class="events__place col-xs-12">68 Gleichner Viaduct</li>
+                                    <li class="events__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="events__footer">
+                                <ul class="events__buy">
+                                    <li><strong>$200</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Book now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
+                    <div class="col-md-4">
+                        <article class="events__item">
+                            <header class="events__header">
+                                <img src="./img/events/events-item__2.png" alt="events-item">
+                            </header>
+                            <div class="events__content">
+                                <h1>Fear Of Diving And Automatic Negative Thoughts</h1>
+                                <ul class="events__information list-unstyled row">
+                                    <li class="events__date col-xs-12">04 Feb 2016 06 Feb 2016</li>
+                                    <li class="events__place col-xs-12">0298 Kulas Street</li>
+                                    <li class="events__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="events__footer">
+                                <ul class="events__buy">
+                                    <li><strong>$200</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Book now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- EVENT ITEM END -->
+
+                    <!-- EVENT ITEM -->
+                    <div class="col-md-4">
+                        <article class="events__item">
+                            <header class="events__header">
+                                <img src="./img/events/events-item__3.png" alt="events-item">
+                            </header>
+                            <div class="events__content">
+                                <h1>Fear Of Diving And Automatic Negative Thoughts</h1>
+                                <ul class="events__information list-unstyled row">
+                                    <li class="events__date col-xs-12">01 Jan 2016 19 Sep 2016</li>
+                                    <li class="events__place col-xs-12">7462 Adell Shoal</li>
+                                    <li class="events__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="events__footer">
+                                <ul class="events__buy">
+                                    <li><strong>$200</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Book now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- EVENT ITEM END -->
+
+                </div>
+                <div class="events__row row">
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn--default btn--big">Show more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- EVENTS END -->
+
+        <!-- MEMBESHIP -->
+        <section class="membership text-center">
+            <div class="membership__container container">
+                <div class="membership__row row">
+                    <div class="col-md-12">
+                        <h1>BE A PART OF US<br>BUY MEMBERSHIP</h1>
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        <a href="#" class="btn btn--primary btn--big">BUY MEMBERSHIP</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MEMBESHIP END -->
+
+        <!-- SHOP -->
+        <section class="shop text-center">
+            <div class="shop__container container">
+                <div class="shop__heading shop__row row">
+                    <div class="col-md-12">
+                        <h1>STORE</h1>
+                    </div>
+                    <div class="tabs-navigation col-md-12">
+                        <a href="#" class="tabs-navigation__item tabs-navigation__item--active">FEATURED</a> / <a href="#" class="tabs-navigation__item">ALL PRODUCTS</a>
+                    </div>
+                </div>
+                <div class="shop__catalog shop__row row">
+
+                    <!-- SHOP ITEM -->
+                    <div class="col-md-4">
+                        <article class="shop__item">
+                            <header class="shop__header">
+                                <img src="./img/shop/shop-item__1.png" alt="shop-item">
+                                <div class="shop__overlay">
+                                    <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                    <p>You’ve a partner, a lovely child and most things aren’t running smoothly these days. You’re not feeling down or depressed but you’re quickly irritated, a bit tensed and anxious. separated from each other.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </header>
+                            <div class="shop__content">
+                                <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                <ul class="shop__information list-unstyled row">
+                                    <li class="shop__place col-xs-12">Royal Albert Hall, Kensington</li>
+                                    <li class="shop__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="shop__footer">
+                                <ul class="shop__buy">
+                                    <li><strong>$999 - $2000</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Buy now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
+                    <div class="col-md-4">
+                        <article class="shop__item">
+                            <header class="shop__header">
+                                <img src="./img/shop/shop-item__1.png" alt="shop-item">
+                                <div class="shop__overlay">
+                                    <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                    <p>You’ve a partner, a lovely child and most things aren’t running smoothly these days. You’re not feeling down or depressed but you’re quickly irritated, a bit tensed and anxious. separated from each other.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </header>
+                            <div class="shop__content">
+                                <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                <ul class="shop__information list-unstyled row">
+                                    <li class="shop__place col-xs-12">Royal Albert Hall, Kensington</li>
+                                    <li class="shop__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="shop__footer">
+                                <ul class="shop__buy">
+                                    <li><strong>$999 - $2000</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Buy now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
+                    <div class="col-md-4">
+                        <article class="shop__item">
+                            <header class="shop__header">
+                                <img src="./img/shop/shop-item__1.png" alt="shop-item">
+                                <div class="shop__overlay">
+                                    <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                    <p>You’ve a partner, a lovely child and most things aren’t running smoothly these days. You’re not feeling down or depressed but you’re quickly irritated, a bit tensed and anxious. separated from each other.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </header>
+                            <div class="shop__content">
+                                <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                <ul class="shop__information list-unstyled row">
+                                    <li class="shop__place col-xs-12">Royal Albert Hall, Kensington</li>
+                                    <li class="shop__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="shop__footer">
+                                <ul class="shop__buy">
+                                    <li><strong>$999 - $2000</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Buy now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- SHOP ITEM END -->
+
+                </div>
+                <div class="shop__catalog shop__row row">
+
+                    <!-- SHOP ITEM -->
+                    <div class="col-md-4">
+                        <article class="shop__item">
+                            <header class="shop__header">
+                                <img src="./img/shop/shop-item__1.png" alt="shop-item">
+                                <div class="shop__overlay">
+                                    <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                    <p>You’ve a partner, a lovely child and most things aren’t running smoothly these days. You’re not feeling down or depressed but you’re quickly irritated, a bit tensed and anxious. separated from each other.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </header>
+                            <div class="shop__content">
+                                <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                <ul class="shop__information list-unstyled row">
+                                    <li class="shop__place col-xs-12">Royal Albert Hall, Kensington</li>
+                                    <li class="shop__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="shop__footer">
+                                <ul class="shop__buy">
+                                    <li><strong>$999 - $2000</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Buy now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
+                    <div class="col-md-4">
+                        <article class="shop__item">
+                            <header class="shop__header">
+                                <img src="./img/shop/shop-item__1.png" alt="shop-item">
+                                <div class="shop__overlay">
+                                    <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                    <p>You’ve a partner, a lovely child and most things aren’t running smoothly these days. You’re not feeling down or depressed but you’re quickly irritated, a bit tensed and anxious. separated from each other.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </header>
+                            <div class="shop__content">
+                                <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                <ul class="shop__information list-unstyled row">
+                                    <li class="shop__place col-xs-12">Royal Albert Hall, Kensington</li>
+                                    <li class="shop__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="shop__footer">
+                                <ul class="shop__buy">
+                                    <li><strong>$999 - $2000</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Buy now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- SHOP ITEM END -->
+
+                    <!-- SHOP ITEM -->
+                    <div class="col-md-4">
+                        <article class="shop__item">
+                            <header class="shop__header">
+                                <img src="./img/shop/shop-item__1.png" alt="shop-item">
+                                <div class="shop__overlay">
+                                    <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                    <p>You’ve a partner, a lovely child and most things aren’t running smoothly these days. You’re not feeling down or depressed but you’re quickly irritated, a bit tensed and anxious. separated from each other.</p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </header>
+                            <div class="shop__content">
+                                <h1>Sport equipment for active life from Sport Festival 2016</h1>
+                                <ul class="shop__information list-unstyled row">
+                                    <li class="shop__place col-xs-12">Royal Albert Hall, Kensington</li>
+                                    <li class="shop__category col-xs-12">Farm Type</li>
+                                </ul>
+                            </div>
+                            <footer class="shop__footer">
+                                <ul class="shop__buy">
+                                    <li><strong>$999 - $2000</strong></li>
+                                    <li class="text-right"><a href="#" class="btn btn--primary">Buy now</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    </div>
+                    <!-- SHOP ITEM END -->
+
+                </div>
+                <div class="shop__row row">
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn--default btn--big">Show more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SHOP END -->
+
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER -->
+    <footer class="footer container-fluid">
+        <div class="footer__container container">
+            <div class="footer__row row">
+
+                <!-- COPYRIGHT -->
+                <div class="footer__copyright col-xs-12 col-lg-4">
+                    <span>&copy; Grub Crawl 2016<br>Powered by Eventgrid</span>
+                </div>
+                <!-- COPYRIGHT END -->
+
+                <!-- COPYRIGHT -->
+                <div class="footer__logo col-xs-12 col-lg-4 text-center">
+                    <a href="index.html">
+                        <img src="./img/header/header__logo.png" alt="Grub Crawl logo" width="80" height="50">
+                    </a>
+                </div>
+                <!-- COPYRIGHT END -->
+
+                <!-- FOOTER NAVIGATION -->
+                <div class="footer__navigation col-xs-12 col-lg-4">
+                    <ul class="list-inline list-unstyled text-uppercase">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- FOOTER NAVIGATION END -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- SCRIPTS -->
+    <script>
+var menu = document.getElementById("menu");
+var burger = document.getElementById("burger");
+burger.onclick = function() {
+    event.preventDefault();
+    if (menu.classList.contains("visible")) {
+        menu.classList.remove("visible");
+    } else {
+        menu.classList.add("visible");
+    }
+}
+    </script>
+    <!-- SCRIPTS END -->
+
+
+</body>
+
+</html>

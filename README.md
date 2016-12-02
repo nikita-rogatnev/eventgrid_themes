@@ -1,1 +1,1 @@
-# eventgrid-themes
+# Eventgrid Themes
